@@ -1,0 +1,22 @@
+.Button{
+    -fx-border-radius:5px;
+    -fx-text-fill:#1C1C21;
+    -fx-border-color:#1C1C21; 
+    -fx-transition:  fill 0.3s ease, background-color 0.3s ease;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);
+}
+.Button:hover{
+    -fx-background-color:#1C1C21;
+    -fx-text-fill:#F8F9FE;
+}
+.OK{
+    -fx-text-fill:#F8F9FE;
+    -fx-background-color:#1C1C21;
+    -fx-border-radius:5px;
+    -fx-transition:  fill 0.3s ease, background-color 0.3s ease;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);
+}
+.OK:hover{
+    -fx-text-fill:#1C1C21;
+    -fx-background-color:#F8F9FE;
+}

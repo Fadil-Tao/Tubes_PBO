@@ -1,0 +1,5 @@
+.budget_pane{
+    -fx-background-radius:20px;
+    -fx-background-color: #272727;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);
+}

@@ -1,0 +1,46 @@
+.table_expense{
+    -fx-background-radius: 14 14 0 0;
+    -fx-background-color:#1C1C21 ;
+    
+}
+
+.table_expense .column-header{
+    -fx-background-color:#1C1C21;
+    -fx-background-radius:14px;
+   
+}
+.table_expense .column-header-background{
+    -fx-background-color:#1C1C21;
+    -fx-background-radius:14px;
+    -fx-background-insets:2 2 10 0;
+   
+}
+/* .table_expense-row-cell:not(.table-header-cell) {
+    -fx-background-color: transparent;
+} */
+
+
+.table_expense .column-header .label {
+    -fx-text-fill: #F8F9FE;
+}
+.table_income{
+    -fx-background-radius: 14 14 0 0;
+    -fx-background-color:#1C1C21 ;
+
+}
+
+
+.table_income .column-header .label {
+    -fx-text-fill: #F8F9FE;
+}
+.table_income .column-header{
+    -fx-background-color:#1C1C21;
+    -fx-background-radius:14px;
+   
+}
+.table_income .column-header-background{
+    -fx-background-color:#1C1C21;
+    -fx-background-radius:14px;
+    -fx-background-insets:2 2 10 0;
+   
+}

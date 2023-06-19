@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="814.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BudgetsController">
+   <children>
+      <AnchorPane fx:id="side_anchor" layoutX="-9.0" prefHeight="422.0" prefWidth="169.0" styleClass="side_anchorpane" stylesheets="@styling/Dashboard.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-9.0" AnchorPane.rightAnchor="654.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="37.0" layoutY="74.0" style="-fx-background-color: none; -fx-font-family: Elephant; -fx-font-size: 20px;" text="MyMoney" textFill="WHITE" />
+            <Button id="records" layoutX="21.0" layoutY="143.0" mnemonicParsing="false" onAction="#Records_Clicked" prefHeight="25.0" prefWidth="129.0" styleClass="records" stylesheets="@styling/Dashboard.css" text="Records" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="BOOK" lineSpacing="3.0" size="20" styleClass="FontAwesomeIcon" text=" " wrappingWidth="23.99997043609619">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </FontAwesomeIcon>
+               </graphic></Button>
+            <Button id="analytics" layoutX="21.0" layoutY="195.0" mnemonicParsing="false" onAction="#Analytics_Clicked" prefHeight="25.0" prefWidth="129.0" styleClass="analytics" text="Analytics" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIcon fill="WHITE" glyphName="DATABASE" styleClass="analytics" wrappingWidth="13.66666316986084" />
+               </graphic></Button>
+            <Button id="analytics" layoutX="21.0" layoutY="249.0" mnemonicParsing="false" onAction="#budgets_Clicked" prefHeight="25.0" prefWidth="129.0" styleClass="analytics" text="Budget" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIcon id="FA" fill="WHITE" glyphName="DOLLAR" size="20" styleClass="FontAwesomeIcon" tabSize="0" wrappingWidth="15.238167762756348" />
+               </graphic></Button>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="199.0" layoutY="51.0" prefHeight="288.0" prefWidth="575.0">
+         <children>
+            <AnchorPane id="budget_pane" layoutX="73.0" layoutY="34.0" prefHeight="201.0" prefWidth="441.0" styleClass="budget_pane" stylesheets="@styling/budget.css">
+               <children>
+                  <Circle fill="#f9a000" layoutX="393.0" layoutY="37.0" opacity="0.6" radius="23.0" stroke="#f9a000" strokeType="INSIDE" />
+                  <Circle fill="#ed0006" layoutX="370.0" layoutY="37.0" opacity="0.6" radius="23.0" stroke="#ed0006" strokeType="INSIDE" />
+                  <Label layoutX="25.0" layoutY="146.0" text="DANA ANDA " textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="budget_label" layoutX="25.0" layoutY="60.0" text="Label" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT" size="41.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

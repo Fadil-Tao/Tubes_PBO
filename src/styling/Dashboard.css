@@ -1,0 +1,39 @@
+.side_anchorpane{
+    -fx-background-color: #1C1C21;
+    -fx-background-radius: 15px;
+    
+}
+.records{
+    -fx-background-color: #1C1C21;
+    -fx-text-fill: #F8F9FE;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-transition:  fill 0.3s ease, background-color 0.3s ease;
+}
+.analytics{
+    -fx-background-color: #1C1C21;
+    -fx-text-fill: #F8F9FE;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-fill : #F8F9FE;
+}
+
+.records:hover {
+    -fx-background-color: #F8F9FE;
+    -fx-text-fill: #1C1C21;
+}
+ .analytics:hover {
+    -fx-background-color: #F8F9FE;
+    -fx-text-fill: #1C1C21;
+    -fx-fill : #1C1C21;
+}
+.FontAwesomeIcon{
+    -fx-background-color: #1C1C21;
+    -fx-fill: #F8F9FE;
+    -fx-transition:  fill 0.3s ease, background-color 0.3s ease;
+}
+.FontAwesomeIcon:hover{
+    -fx-fill: #1C1C21;
+}
+
+
