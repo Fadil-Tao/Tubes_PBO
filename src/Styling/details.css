@@ -1,0 +1,24 @@
+.alert{
+    -fx-background-color: #1C1C21;
+}
+
+
+.content{
+    -fx-text-fill:#F8F9FE;
+    -fx-font-weight: bold;
+    -fx-text-aligment:center;
+    -fx-font-family:helvetica;
+    -fx-font-size: 14px;
+    -fx-padding: 20px;
+}
+
+
+.button {
+    -fx-background-color: #009688;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #008077;
+}
